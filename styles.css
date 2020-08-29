@@ -1,0 +1,68 @@
+/*#forecastResults{
+  display: flex;
+  flex-wrap: wrap;
+}*/
+#hider {
+  margin-top: 30px;
+}
+
+#second {
+  margin-top: 10px;
+}
+
+#amiiboSeriesResults {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#amiiboSeriesResults div {
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 5px;
+  width: 200px;
+  border: 1px solid #ff4554;
+  text-align: center;
+  background-color: #00c3e3;
+}
+
+#amiiboResults {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#amiiboResults div {
+  margin-left: 10px;
+  margin-right: 10px;
+  text-align: center;
+}
+
+.boxer{
+  border: 1px solid black;
+  color: #3498eb;
+}
+
+@media only screen and (min-width: 800px) {
+  .outer {
+    font-size: 18px;
+  }
+  .mobile {
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    font-size: 18px;
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 799px) {
+  .outer {
+    font-size: 16px;
+  }
+  .mobile {
+    display: flex;
+    font-size: 16px;
+    flex-direction: column;
+    width: 50%;
+  }
+}
